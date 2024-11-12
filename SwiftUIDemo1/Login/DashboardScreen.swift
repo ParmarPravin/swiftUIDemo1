@@ -11,15 +11,10 @@ struct DashboardScreen: View {
     @State var  strName:String = ""
     
     var body: some View {
-        
-      
         VStack{
-    
                 Color.green
                 Text("Dashboard  screen  Comming").font(.title).background(Color.blue)
                 Text("Dashboard  screen  \(strName)").font(.title).background(Color.blue)
-
-                
                 Button(
                     action: {
                         
