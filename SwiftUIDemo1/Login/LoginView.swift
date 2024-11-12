@@ -16,7 +16,6 @@ struct LoginView: View {
     
         ZStack{
             Color.gray.ignoresSafeArea(.all)
-            
             NavigationView{
                 
                 VStack{
@@ -43,8 +42,7 @@ struct LoginView: View {
                 }
                 
             }
-            
-            
+
         }
     }
 }
